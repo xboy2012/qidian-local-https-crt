@@ -1,0 +1,22 @@
+{
+  "name": "qidian-local-https-crt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "rebuild": "./self-signed-tls -c=CN -s=Shanghai -l=Shanghai -o=Tencent -u=SNG -n=local.qiye.qq.com -e=xboyliu@tencent.com "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xboy2012/qidian-local-https-crt.git"
+  },
+  "keywords": [
+    "crt"
+  ],
+  "author": "xboy2012",
+  "license": "UNLICENCED",
+  "bugs": {
+    "url": "https://github.com/xboy2012/qidian-local-https-crt/issues"
+  },
+  "homepage": "https://github.com/xboy2012/qidian-local-https-crt#readme"
+}
