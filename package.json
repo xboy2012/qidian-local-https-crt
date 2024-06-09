@@ -8,15 +8,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xboy2012/qidian-local-https-crt.git"
+    "url": "https://github.com/xboy2012/qidian-local-https-crt"
   },
   "keywords": [
-    "crt"
+    "crt",
+    "https",
+    "local",
+    "qidian",
+    "tencent"
   ],
   "author": "xboy2012",
   "license": "UNLICENCED",
   "bugs": {
     "url": "https://github.com/xboy2012/qidian-local-https-crt/issues"
   },
-  "homepage": "https://github.com/xboy2012/qidian-local-https-crt#readme"
+  "homepage": "https://github.com/xboy2012/qidian-local-https-crt#readme",
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "typescript": "^5.4.5"
+  }
 }
