@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ESNext",
+    "declaration": true,
+    "outDir": "dist"
+  },
+  "include": [
+    "src/index.mts",
+    "src/index.ts"
+  ]
+}

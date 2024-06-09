@@ -2,8 +2,11 @@
   "name": "qidian-local-https-crt",
   "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "jsnext:main": "dist/index.mjs",
   "scripts": {
+    "prepare": "tsc -p tsconfig.esm.json && tsc -p tsconfig.cjs.json",
     "rebuild": "./self-signed-tls -c=CN -s=Shanghai -l=Shanghai -o=Tencent -u=SNG -n=local.qiye.qq.com -e=xboyliu@tencent.com "
   },
   "repository": {
@@ -26,5 +29,8 @@
   "devDependencies": {
     "@types/node": "^20.14.2",
     "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": ">6"
   }
 }
